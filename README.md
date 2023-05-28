@@ -2,6 +2,8 @@
 
 A 'quick' command runner + extra productivity tools.
 
+![](examples/0.png)
+
 ## # commands
 
 Simple python scripts that will be runnable through the app via a few click.
