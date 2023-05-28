@@ -1,16 +1,47 @@
 # qrun
 
-A new Flutter project.
+A 'quick' command runner + extra productivity tools.
 
-## Getting Started
+## # commands
 
-This project is a starting point for a Flutter application.
+Simple python scripts that will be runnable through the app via a few click.
 
-A few resources to get you started if this is your first Flutter project:
+All the config and relevant data can be found in your home/documents directory, in a folder called qrun_config.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+qrun_config will have a runners.json file like this,
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+```
+{
+  "runners" : [
+    {
+    "title" : "Firefox",
+    "runner" : "firefox.py",
+    "arguments" : "",
+    "description" : "start up firefox on click",
+    "icon" : "firefox.png"
+    },
+    {
+    "title" : "Bing",
+    "runner" : "edge.py",
+    "arguments" : "https://www.bing.com",
+    "description" : "open up bing.com",
+    "icon" : "bing-100.png"
+    },
+  ]
+}
+```
+
+runners must be python scripts and must be in the qrun_config/runners folder.
+
+icons must be in qrun_config/icons folder.
+
+TODO: might make a mobile version eventually, but one that sticks to opening websites for now.
+
+![](examples/0.png)
+
+![](examples/1.png)
+
+![](examples/2.png)
+
+![](examples/3.png)

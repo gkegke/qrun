@@ -21,7 +21,7 @@ void main() async {
     await windowManager.show();
     await windowManager.focus();
     //await windowManager.setPosition(const Offset(50, 50));
-    await windowManager.setPosition(const Offset(1500, 50));
+    await windowManager.setPosition(const Offset(50, 50));
   });
 
   runApp(const MyApp());
