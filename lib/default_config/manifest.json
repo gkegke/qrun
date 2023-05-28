@@ -1,0 +1,10 @@
+{
+  "runners.json": "lib/default_config/runners.json",
+  "firefox.py" : "lib/default_config/runners/firefox.py",
+  "edge.py" : "lib/default_config/runners/edge.py",
+  "icon0" : "lib/default_config/icons/ai.png",
+  "icon1" : "lib/default_config/icons/bing-100.png",
+  "icon2" : "lib/default_config/icons/firefox.png",
+  "icon3" : "lib/default_config/icons/github-sign.png",
+  "icon4" : "lib/default_config/icons/gmail.png"
+}

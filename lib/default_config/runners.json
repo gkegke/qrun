@@ -1,0 +1,39 @@
+{
+  "runners" : [
+    {
+    "title" : "Firefox",
+    "runner" : "firefox.py",
+    "arguments" : "",
+    "description" : "start up firefox on click",
+    "icon" : "firefox.png"
+    },
+    {
+    "title" : "Bing",
+    "runner" : "edge.py",
+    "arguments" : "https://www.bing.com",
+    "description" : "open up bing.com",
+    "icon" : "bing-100.png"
+    },
+    {
+    "title" : "Gmail",
+    "runner" : "firefox.py",
+    "arguments" : "www.gmail.com",
+    "description" : "open up gmail.com",
+    "icon" : "gmail.png"
+    },
+    {
+    "title" : "chatGPT",
+    "runner" : "firefox.py",
+    "arguments" : "chat.openai.com/",
+    "description" : "ask chat for help",
+    "icon" : "ai.png"
+    },
+    {
+    "title" : "github",
+    "runner" : "firefox.py",
+    "arguments" : "https://github.com/",
+    "description" : "github",
+    "icon" : "github-sign.png"
+    }
+  ]
+}
